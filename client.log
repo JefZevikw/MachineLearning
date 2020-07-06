@@ -1,0 +1,81 @@
+host is  192.168.1.102
+Number of arguments: 3 arguments.
+Argument List: ['server.py', '-i', '192.168.1.102']
+Message...: getfldr($
+sending getfldr($ ...
+getfldr($)
+Received #,
+Received 2
+Received NSFileTypeDirectory,/var/mobile/Containers/Data/Application/F34CAD6F-DC48-4B83-8D8E-6B61721D5AB2//Documents,96,mobile,
+Received 118
+Received 06/07/2020, 10:37:34 Israel Daylight Time
+Received 41
+Received ,#,/var/mobile/Containers/Data/Application/F34CAD6F-DC48-4B83-8D8E-6B61721D5AB2//.com.apple.mobile_container_manager.metadata.plist,ERROR,
+Received 138
+Received The file “.com.apple.mobile_container_manager.metadata.plist” couldn’t be opened because you don’t have permission to view it.
+Received 126
+Received #,
+Received 2
+Received NSFileTypeDirectory,/var/mobile/Containers/Data/Application/F34CAD6F-DC48-4B83-8D8E-6B61721D5AB2//Library,128,mobile,06/07/2020, 10:21:12 Israel Daylight Time,#,NSFileTypeDirectory,/var/mobile/Containers/Data/Application/F34CAD6F-DC48-4B83-8D8E-6B61721D5AB2//SystemData,64,mobile,01/01/1970, 2:00:00 Israel Standard Time,
+Received 321
+Received #,NSFileTypeDirectory,/var/mobile/Containers/Data/Application/F34CAD6F-DC48-4B83-8D8E-6B61721D5AB2//tmp,64,mobile,06/07/2020, 10:37:34 Israel Daylight Time,
+Received 156
+Received Hello from server
+Received 17
+Message...: getfldr(/var/mobile/Containers/Data/Application/F34CAD6F-DC48-4B83-8D8E-6B61721D5AB2//Documents
+sending getfldr(/var/mobile/Containers/Data/Application/F34CAD6F-DC48-4B83-8D8E-6B61721D5AB2//Documents ...
+getfldr(/var/mobile/Containers/Data/Application/F34CAD6F-DC48-4B83-8D8E-6B61721D5AB2//Documents)
+Received #,
+Received 2
+Received NSFileTypeRegular,/var/mobile/Containers/Data/Application/F34CAD6F-DC48-4B83-8D8E-6B61721D5AB2//Documents/temp2.dat,54,mobile,06/07/2020, 10:37:34 Israel Daylight Time,Hello from server
+Received 185
+Message...: getfile(/var/mobile/Containers/Data/Application/F34CAD6F-DC48-4B83-8D8E-6B61721D5AB2//Documents/temp2.dat
+sending getfile(/var/mobile/Containers/Data/Application/F34CAD6F-DC48-4B83-8D8E-6B61721D5AB2//Documents/temp2.dat ...
+getfile(/var/mobile/Containers/Data/Application/F34CAD6F-DC48-4B83-8D8E-6B61721D5AB2//Documents/temp2.dat)
+['(', 'var', 'mobile', 'Containers', 'Data', 'Application', 'F34CAD6F-DC48-4B83-8D8E-6B61721D5AB2', '', 'Documents', 'temp2.dat']
+10
+filename to save is :temp2.dat
+54
+Received aslkjdfhalksjdhflaksjhflkajsdhlfajsdhflkajshdlfkjashdf
+Received 54
+0
+Received 
+Received 0
+Message...: ^CTraceback (most recent call last):
+  File "server.py", line 73, in <module>
+    msg = input('Message...: ')
+KeyboardInterrupt
+bebik@bebiks-MacBook-Pro aes-master % python3 server.py -i 192.168.1.102
+host is  192.168.1.102
+Number of arguments: 3 arguments.
+Argument List: ['server.py', '-i', '192.168.1.102']
+Message...: gdsf
+sending gdsf ...
+gdsf)
+Received Hello from server
+Received 17
+Message...: getfldr($
+sending getfldr($ ...
+getfldr($)
+Received #,
+Received 2
+Received NSFileTypeDirectory,/var/mobile/Containers/Data/Application/F34CAD6F-DC48-4B83-8D8E-6B61721D5AB2//Documents,96,mobile,06/07/2020, 10:37:34 Israel Daylight Time,
+Received 160
+Received #,/var/mobile/Containers/Data/Application/F34CAD6F-DC48-4B83-8D8E-6B61721D5AB2//.com.apple.mobile_container_manager.metadata.plist,ERROR,
+Received 137
+Received The file “.com.apple.mobile_container_manager.metadata.plist” couldn’t be opened because you don’t have permission to view it.
+Received 126
+Received #,
+Received 2
+Received NSFileTypeDirectory,/var/mobile/Containers/Data/Application/F34CAD6F-DC48-4B83-8D8E-6B61721D5AB2//Library,128,mobile,06/07/2020, 10:21:12 Israel Daylight Time,#,NSFileTypeDirectory,/var/mobile/Containers/Data/Application/F34CAD6F-DC48-4B83-8D8E-6B61721D5AB2//SystemData,64,mobile,
+Received 280
+Received 01/01/1970, 2:00:00 Israel Standard Time,#,NSFileTypeDirectory,/var/mobile/Containers/Data/Application/F34CAD6F-DC48-4B83-8D8E-6B61721D5AB2//tmp,64,mobile,06/07/2020, 10:37:34 Israel Daylight Time,Hello from server
+Received 214
+Message...: ^CTraceback (most recent call last):
+  File "server.py", line 73, in <module>
+    msg = input('Message...: ')
+KeyboardInterrupt
+bebik@bebiks-MacBook-Pro aes-master % cp server.py ~/Documents/client.py
+bebik@bebiks-MacBook-Pro aes-master % cp /Users/bebik/Documents/source/files/files/ViewController.m  ~/Documents 
+bebik@bebiks-MacBook-Pro aes-master % 
+
